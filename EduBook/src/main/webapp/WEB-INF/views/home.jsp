@@ -39,20 +39,18 @@ ${loginVo}
 		<tr class="warning">
 		<!-- TODO 16_4 국제화코드 적용 taglib spring -->
 		<!-- TODO 19_1 login submit 실행 -->
-			<th><spring:message code="label.id"/></th>
 			<td>
 				<input type="text" name="id" required>
 			</td>	
 		</tr>
 		<tr>
-			<th><spring:message code="label.password"/></th>
 			<td>
 				<input type="password" name="password" required>
 			</td>	
 		</tr>
 		<tr>
 			<th colspan="2">
-				<input type="submit" value='<spring:message code="label.login"/>'>
+				<input type="submit" value='login'>
 				
 				<!-- TODO 24_01 회원가입 Ajax, formValitaion -->
 				<input type="button" value="회원가입 Ajax" onclick="location.href='./registForm.do'">
